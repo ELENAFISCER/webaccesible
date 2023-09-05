@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(54, 58, 76);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.text-center{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(54, 54, 54);
+}
+h5{
+    color: white;
+    background-color: rgba(8, 8, 4, 0.413);
+    border-left: solid 1em rgba(235, 215, 59, 0.957);
+    border-right: solid 1em rgba(235, 215, 59, 0.957);
+    text-align: center;
+}
+h6{
+    color: white;
+    background-color: rgba(8, 8, 4, 0.413);
+    margin-left: rgba(235, 215, 59, 0.413);
+    margin-right: rgba(235, 215, 59, 0.413);
+}
+.accordion-body{
+    background-color: rgba(226, 178, 34, 0.705);
+}
+footer{
+    color: white;
+    background-color: rgba(234, 187, 31, 0.683);
+
+}
+.blockquote-footer{
+    color: rgb(226, 178, 34);
+    background-color: white;
+
+}
+.blockquote-footer:hover{
+    background-color: rgba(204, 232, 249, 0.925);
+    color: black;
+}
+.titulo{
+    color:rgb(54, 54, 54);
+    border: dotted;
+    padding: 1em;
+    border-radius: 50%;
+    background-color: rgb(234, 186, 31);
+}
+th{
+    text-decoration: underline;
+}
+hr{
+    color: rgb(142, 160, 241);
+}
+.card-title{
+    color:white;
+}
+#carousel {
+    max-width: 600px; 
+    margin: 0 auto; /* Centra el carrusel en la página */
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    /* Cambia la posición de manera absoluta */
+    position: absolute;
+    top: 50%; /* Alinea verticalmente al centro */
+    transform: translateY(-50%); /* Ajusta verticalmente en función del tamaño del botón */
+  }
+  
+  /* Ajusta el espacio entre los botones y los bordes */
+  .carousel-control-prev {
+    left: 340px; /* Cambia la posición izquierda */
+    background-size: 15px 15px; /* Cambia el tamaño del ícono */
+    width: 15px; /* Cambia el ancho del ícono */
+   height: 15px; /* Cambia la altura del ícono */
+ }
+  
+  .carousel-control-next {
+    right: 340px; /* Cambia la posición derecha */
+    background-size: 15px 15px; /* Cambia el tamaño del ícono */
+    width: 15px; /* Cambia el ancho del ícono */
+height: 15px; /* Cambia la altura del ícono */
+}
+
+
+
+
+
+
+
